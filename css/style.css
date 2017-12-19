@@ -1785,6 +1785,7 @@ textarea {
 
 
 /* Extra Additions - Chris */
+
 /*===================================*/
 /* index.html */
 /*===================================*/
@@ -1794,4 +1795,17 @@ a.js-fh5co-nav-toggle.fh5co-nav-toggle.fh5co-nav-white {
 .about-img {
   width: 400px;
 }
+.display-tc.js-fullheight.animate-box.fadeIn.animated-fast {
+    height: 800px!important;
+}
+@media (max-width: 767px) {
+    .display-tc.js-fullheight.animate-box.fadeIn.animated-fast {
+      height: 600px!important;
+  }
+  .fh5co-nav #fh5co-logo a {
+    font-size: 30px;
+    color: #fff !important;
+  }
+}
+
 
