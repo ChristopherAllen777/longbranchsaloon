@@ -444,7 +444,7 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 .fh5co-section p {
-  color: rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.8);
   font-size: 18px;
   line-height: 1.5;
 }
@@ -627,7 +627,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
-  height: 600px !important;
+  height: 525px !important;
   position: relative;
 }
 #fh5co-slider-wrwap .flexslider .flex-control-nav {
@@ -665,13 +665,13 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 #fh5co-slider-wrwap .flexslider .slider-text-bg .desc {
-  margin-top: 9em;
+  margin-top: 4em;
   padding: 2em;
   background: transparent;
 }
 @media screen and (max-width: 992px) {
   #fh5co-slider-wrwap .flexslider .slider-text-bg .desc {
-    background: #000;
+    background: #000000d6;
   }
 }
 #fh5co-slider-wrwap .flexslider .slider-text-bg .desc h2 {
@@ -1351,9 +1351,11 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-offcanvas a {
   color: rgba(255, 255, 255, 0.5);
+  text-transform: uppercase;
+  font-size: 26px;
 }
 #fh5co-offcanvas a:hover {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(196, 86, 86, 0.8);
 }
 #fh5co-offcanvas ul {
   padding: 0;
