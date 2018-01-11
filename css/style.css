@@ -1803,9 +1803,11 @@ a.js-fh5co-nav-toggle.fh5co-nav-toggle.fh5co-nav-white {
       height: 600px!important;
   }
   .fh5co-nav #fh5co-logo a {
-    font-size: 30px;
+    font-size: 26px;
     color: #fff !important;
-  }
+    /* text-transform: uppercase; */
+    font-family: "Satisfy", cursive;
+    }
 }
 
 
